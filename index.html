@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Optimus Prime</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/f4fa459787.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="image1">
+            <img src="img/logo1.png" class="logo">
+        </div>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+            <div class="header-text">
+                <p><span class="auto-type">Coder</span></p>
+                <h1>Hi, I'm <span>Aryan</span> Bhardwaj <i class="fa-solid fa-person fa-beat"></i><br>from <span>INDIA</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------- header endssssss ------------------->
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img class="uimg1" src="img/user1.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I'm a versatile creator with a passion for engineering, gaming, and poetry. My expertise in C++ has led to innovation, while my patent in the medical field defines my commitment to improving lives. When I'm not coding, you'll find me cycling through long distances, embracing life's adventures. Welcome to my portfolio, where technology, art, and healthcare converge in my unique journey.</p>   
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class = "tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Web App designs<br></li>
+                            <li><span>Web Development</span><br>Web App/Websites Development<br></li>
+                            <li><span>App Development</span><br>IOS and Android Development<br></li>
+                            <li><span>Prompt Engineer</span><br>Pro-Efficient AI User<br></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Internship 2023</span><br>Octanet CPP Internship<br></li>
+                            <li><span>Patents</span><br>Patent filed in medical field and many more designs ready<br></li>
+                            <li><span>Hackathons 2021-present</span><br>Attended MLh hackvsit,HTM 3<br></li>
+                            <li><span>Published Poet</span><br>9+ poems published<br></li>
+                            <li><span>2020</span><br>DST Inspire Internship Camp<br></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-present BE</span><br>9.78 CGPA maintained<br></li>
+                            <li><span>2019-2021 CBSE XIth NM</span><br>9.9 CGPA <br></li>
+                            <li><span>2019 Xth CBSE</span><br>School Topper 9.6 CGPA <br></li>
+                        </ul>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------services------------->
+    <div id="services">
+<div class="container">
+    <h1 class="subtitle">My Services</h1>
+    <div id="service-list"
+     class="service-list">
+
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p> I craft digital experiences that captivate and convert. With pixel-perfect design and user-centric functionality, I bring your vision to life. Elevate your online presence with me. Let's transform your ideas into stunning, functional websites that leave a lasting impression.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX</h2>
+            <p> I specialize in creating seamless and engaging user interfaces. With a keen eye for design and user-centered approach, I craft intuitive experiences. Let's collaborate to enhance your product's usability and aesthetics. Together, we'll create designs that leave a lasting impact.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Development</h2>
+            <p>I excel in crafting mobile and web applications that empower your ideas. With a robust skill set and a commitment to innovation, I turn concepts into functional and user-friendly apps. Join me in the journey to bring your app vision to life.</p>
+            <a href="#">Learn more</a>
+        </div>
+
+    </div>
+
+</div>
+    </div>
+<!-- ---------portfolio-----     -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work  <i class="fa-brands fa-java"></i>__<i class="fa-solid fa-c"></i><i class="fa-solid fa-plus"></i><i class="fa-solid fa-plus"></i>   
+            __<i class="fa-brands fa-html5"></i>__<i class="fa-solid fa-file-code"></i>__<i class="fa-brands fa-js"></i>__<i class="fa-brands fa-android"></i>__<i class="fa-brands fa-apple"></i>__</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/work-1.png">
+                <div class="layer"><h3>Social Media App</h3>
+                    <p> I'm thrilled to present a unique and dynamic platform that connects people like never before. With innovative features and a user-focused design, this app redefines social networking. Join us in shaping the future of digital connections and experiences.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work-2.png">
+                <div class="layer"><h3>Git Username</h3>
+                    <p>This dynamic tool harnesses the power of APIs to streamline your GitHub profile searches. Effortlessly discover developers and repositories with precision and speed. Join us in simplifying your GitHub experience, one search at a time.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work-3.png">
+                <div class="layer"><h3>Online Shopping App</h3>
+                    <p> Explore a world of convenience and choice as you browse our digital marketplace. With a user-friendly interface and secure transactions, we bring the mall to your fingertips. Join us in redefining your shopping experience, one click at a time.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div> 
+        <a href="#" class="btn">See More</a>     
+    </div>
+</div>
+<!-- -------------------------contact section---------------- -->
+<div id="contact">
+    <div class="container">
+       <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>contact@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href="www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/AryanBhIndian?t=WWFVoJZb1LbMYOMgmg0WRw&s=09/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://instagram.com/arrryyannnnn?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/aryan-bhardwaj-sigma/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="#" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div> 
+       </div> 
+    </div>
+        <div class="copyright">
+            <p>Copyright ©️ Aryan.</p>
+        </div>
+</div>
+
+    <script src="script.js"></script>
+    <!-- ---------------changing txt-------------------->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+var typed= new Typed(" .auto-type ", {
+strings: ["Coder","Cyclist","Programmer","Poet","Techie","Gamer"],
+typespeed:500,
+backspeed:500,
+loop: true
+})
+</script>
+
+
+</body>
+</html>
